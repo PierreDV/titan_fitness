@@ -1,3 +1,10 @@
+/*
+Red: #e60807
+Blue: #262f6A
+Grey: #2c3e50
+Off-white: #ecf0f1
+*/
+
 /* ------------------------------------------------- */
 /* BASIC SETUP */
 /* ------------------------------------------------- */
@@ -26,14 +33,66 @@ html {
   margin: 0 auto;
 }
 
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
+
 /* ----- HEADINGS ----- */
-h1 {
-  margin: 0;
-  font-size: 240%;
+h1,
+h2,
+h3 {
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+  font-size: 240%;
   word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e60807;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* ----- PARAGRAPHS ----- */
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+/* ----- ICONS ----- */
+.icon-big {
+  font-size: 300%;
+  display: block;
+  color: #e60807;
+  margin-bottom: 10px;
 }
 
 /* ------------------------------------------------- */
@@ -53,4 +112,39 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 2px 0;
+  color: #ecf0f1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e60807;
 }
