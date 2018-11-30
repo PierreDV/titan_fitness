@@ -1,3 +1,7 @@
+/* ------------------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +17,28 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/* ------------------------------------------------- */
+/* RE-USABLE COMPONENTS */
+/* ------------------------------------------------- */
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* ----- HEADINGS ----- */
+h1 {
+  margin: 0;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+/* ------------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------------- */
 
 header {
   background-image: url(../images/hero.jpeg);
@@ -31,13 +53,4 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-h1 {
-  margin: 0;
-  font-size: 240%;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 4px;
 }
