@@ -106,15 +106,37 @@ h2:after {
   height: 100vh;
 }
 
-.hero-banner {
-  background-image: url(../images/dumbbells.jpeg);
+.banner {
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  height: 35vh;
 }
 
-.hero-banner h2 {
-  margin-top: 75px;
+.banner h2 {
+  margin-top: 60px;
+}
+
+.facilities {
+  background-image: url(../images/dumbbells.jpeg);
+  background-position: 0% 90%;
+}
+
+.philosophy {
+  background-image: url(../images/lifter.jpeg);
+  background-position: 0% 30%;
+}
+
+.contact {
+  background-image: url(../images/kettlebells.jpeg);
+  background-position: 0% 70%;
+}
+
+.tariffs {
+  background-image: url(../images/lady_kettlebell.jpeg);
+}
+
+.why-titan {
+  background-image: url(../images/lifter_2.jpeg);
 }
 
 .secondary-nav {
