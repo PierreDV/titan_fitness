@@ -1,3 +1,9 @@
+function centerLeafletMapOnMarker(map, marker) {
+  var latLngs = [ marker.getLatLng() ];
+  var markerBounds = L.latLngBounds(latLngs);
+  map.fitBounds(markerBounds);
+}
+
 var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -7,5 +13,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1IjoiZGV2ZXJ0ZXUiLCJhIjoiY2pwZmkycmEyMDNnODNxcHUyMms0cXBjbyJ9.RZYyAgc8gLrvDuQ_OFGIlQ'
 }).addTo(mymap);
 
-var marker = L.marker([51.5, -0.09]).addTo(mymap);
+var marker = L.marker([46.415750, 6.268020]).addTo(mymap);
 marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+centerLeafletMapOnMarker(mymap, marker);
