@@ -138,7 +138,7 @@ h2:after {
 /* ------------------------------------------------- */
 
 .main-header {
-  background-image: url(../images/hero.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hero.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -155,26 +155,26 @@ h2:after {
 }
 
 .facilities {
-  background-image: url(../images/dumbbells.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/dumbbells.jpeg);
   background-position: 0% 90%;
 }
 
 .philosophy {
-  background-image: url(../images/lifter.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lifter.jpeg);
   background-position: 0% 30%;
 }
 
 .contact {
-  background-image: url(../images/kettlebells.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/kettlebells.jpeg);
   background-position: 0% 70%;
 }
 
 .tariffs {
-  background-image: url(../images/lady_kettlebell.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lady_kettlebell.jpeg);
 }
 
 .why-titan {
-  background-image: url(../images/lifter_2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lifter_2.jpeg);
 }
 
 .secondary-nav {
@@ -269,4 +269,30 @@ h2:after {
   padding: 5px;
   float: left;
   margin-right: 25px;
+}
+
+/* ------------------------------------------------- */
+/* TARIFFS PAGE */
+/* ------------------------------------------------- */
+
+.tariffs-box {
+  text-align: center;
+}
+
+.tariffs-box h3 {
+  font-size: 130%;
+}
+
+.tariffs-box h3:after {
+  display: block;
+  height: 2px;
+  background-color: #e30613;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.tariffs-box p {
+  font-size: 120%;
 }
