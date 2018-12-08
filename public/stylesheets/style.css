@@ -111,6 +111,11 @@ h2:after {
   margin-top: 30px;
 }
 
+.philosophy-text p:last-child:after {
+  background-color: transparent;
+  margin: 0;
+}
+
 /* ----- ICONS ----- */
 .icon-big {
   font-size: 300%;
