@@ -124,6 +124,15 @@ h2:after {
   margin-bottom: 10px;
 }
 
+.icon-small {
+  color: #e30613;
+  display: inline-block;
+  padding: 5px;
+  float: left;
+  margin-right: 25px;
+  font-size: 200%;
+}
+
 /* ------------------------------------------------- */
 /* HEADER */
 /* ------------------------------------------------- */
@@ -184,6 +193,14 @@ h2:after {
   transform: translate(-50%, -50%);
 }
 
+.hero-text-box ul {
+  float: right;
+}
+
+.hero-text-box ul li {
+  list-style: none;
+}
+
 .logo {
   height: 100px;
   width: auto;
@@ -223,4 +240,33 @@ h2:after {
 /* CONTACT PAGE */
 /* ------------------------------------------------- */
 
-#mapid { height: 250px; }
+#mapid {
+  height: 250px;
+  width: 100%;
+}
+
+.contact-box {
+  margin-top: 30px;
+}
+
+.contact-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.contact-box:last-child {
+  margin-top: 55px;
+  padding-left: 3%;
+}
+
+.contact-info {
+  margin-bottom: 50px;
+}
+
+.contact-info div {
+  color: #e30613;
+  display: inline-block;
+  padding: 5px;
+  float: left;
+  margin-right: 25px;
+}

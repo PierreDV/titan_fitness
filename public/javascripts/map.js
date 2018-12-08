@@ -14,5 +14,5 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap);
 
 var marker = L.marker([46.415750, 6.268020]).addTo(mymap);
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+marker.bindPopup("<b>Titan Fitness</b><br>6 Route des Avouillons, 1196, Gland").openPopup();
 centerLeafletMapOnMarker(mymap, marker);
