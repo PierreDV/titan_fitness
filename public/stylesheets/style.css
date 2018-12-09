@@ -217,7 +217,7 @@ h2:after {
 .main-nav li {
   display: inline-block;
   margin-left: 40px;
-
+  font-weight: bold;
 }
 
 .main-nav li a:link,
@@ -325,4 +325,5 @@ h2:after {
 
 .homepage-info li {
   margin: 0 0 3px 0;
+  font-weight: bold;
 }
