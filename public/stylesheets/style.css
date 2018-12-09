@@ -236,6 +236,28 @@ h2:after {
   border-bottom: 2px solid #e30613;
 }
 
+.corner-ribbon{
+  width: 325px;
+  background: #e30613;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.top-right{
+  top: 35px;
+  right: -80px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 /* ------------------------------------------------- */
 /* CONTACT PAGE */
 /* ------------------------------------------------- */
