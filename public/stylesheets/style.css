@@ -29,6 +29,7 @@ html {
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 /* ------------------------------------------------- */
@@ -40,13 +41,9 @@ html {
   margin: 0 auto;
 }
 
-section {
-  padding: 50px 0;
-}
+section { padding: 50px 0; }
 
-.box {
-  padding: 1%;
-}
+.box { padding: 1%; }
 
 /* ----- HEADINGS ----- */
 h1,
@@ -150,9 +147,7 @@ h2:after {
   height: 35vh;
 }
 
-.banner h2 {
-  margin-top: 70px;
-}
+.banner h2 { margin-top: 70px; }
 
 .facilities {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/dumbbells.jpeg);
@@ -169,21 +164,13 @@ h2:after {
   background-position: 0% 70%;
 }
 
-.tariffs {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lady_kettlebell.jpeg);
-}
+.tariffs { background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lady_kettlebell.jpeg); }
 
-.why-titan {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lifter_2.jpeg);
-}
+.why-titan { background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lifter_2.jpeg); }
 
-.secondary-nav {
-  padding-bottom: 20px;
-}
+.secondary-nav { padding-bottom: 20px; }
 
-.secondary-header {
-  background-color: black;
-}
+.secondary-header { background-color: black; }
 
 .hero-text-box {
   position: absolute;
@@ -193,13 +180,9 @@ h2:after {
   transform: translate(-50%, -50%);
 }
 
-.hero-text-box ul {
-  float: right;
-}
+.hero-text-box ul { float: right; }
 
-.hero-text-box ul li {
-  list-style: none;
-}
+.hero-text-box ul li { list-style: none; }
 
 .logo {
   height: 100px;
@@ -246,9 +229,7 @@ h2:after {
   font-weight: bold;
 }
 
-.corner-ribbon.sticky{
-  position: fixed;
-}
+.corner-ribbon.sticky{ position: fixed; }
 
 .corner-ribbon.top-right{
   top: 35px;
@@ -267,9 +248,7 @@ h2:after {
   width: 100%;
 }
 
-.contact-box {
-  margin-top: 30px;
-}
+.contact-box { margin-top: 30px; }
 
 .contact-box:first-child {
   text-align: right;
@@ -281,9 +260,7 @@ h2:after {
   padding-left: 3%;
 }
 
-.contact-info {
-  margin-bottom: 50px;
-}
+.contact-info { margin-bottom: 50px; }
 
 .contact-info div {
   color: #e30613;
@@ -297,13 +274,9 @@ h2:after {
 /* TARIFFS PAGE */
 /* ------------------------------------------------- */
 
-.tariffs-box {
-  text-align: center;
-}
+.tariffs-box { text-align: center; }
 
-.tariffs-box h3 {
-  font-size: 130%;
-}
+.tariffs-box h3 { font-size: 130%; }
 
 .tariffs-box h3:after {
   display: block;
@@ -315,9 +288,7 @@ h2:after {
   margin-top: 20px;
 }
 
-.tariffs-box p {
-  font-size: 120%;
-}
+.tariffs-box p { font-size: 120%; }
 
 /* ------------------------------------------------- */
 /* HOME PAGE */
