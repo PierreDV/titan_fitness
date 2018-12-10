@@ -197,6 +197,8 @@ h2:after {
   margin-top: 20px;
 }
 
+/* ----- NAVIGATION ----- */
+
 .main-nav {
   float: right;
   list-style: none;
@@ -226,7 +228,20 @@ h2:after {
   border-bottom: 2px solid #e30613;
 }
 
-.corner-ribbon{
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon ion-icon {
+  font-size: 200%;
+  color: #ecf0f1;
+}
+
+.corner-ribbon {
+  display: none;
   width: 325px;
   background: #e30613;
   text-align: center;
@@ -236,9 +251,9 @@ h2:after {
   font-weight: bold;
 }
 
-.corner-ribbon.sticky{ position: fixed; }
+.corner-ribbon.sticky { position: fixed; }
 
-.corner-ribbon.top-right{
+.corner-ribbon.top-right {
   top: 35px;
   right: -80px;
   left: auto;
