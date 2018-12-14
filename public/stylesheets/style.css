@@ -241,23 +241,19 @@ h2:after {
 }
 
 .corner-ribbon {
-  width: 325px;
-  background: #e30613;
-  text-align: center;
-  line-height: 35px;
-  letter-spacing: 1px;
-  padding: 7px;
-  font-weight: bold;
-}
-
-.corner-ribbon.sticky { position: fixed; }
-
-.corner-ribbon.top-right {
-  top: 35px;
-  right: -80px;
+  top: 45px;
+  right: -85px;
   left: auto;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  position: fixed;
+  width: 325px;
+  background: #e30613;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1px;
+  padding: 4px;
+  font-weight: bold;
 }
 
 /* ------------------------------------------------- */
