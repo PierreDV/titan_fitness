@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1423px) {
+  .main-nav {
+    margin-right: 155px;
+  }
+}
 
 /* Big tablets to 1200px (wdiths smaller then the 1140px row) */
 @media only screen and (max-width: 1200px) {
@@ -7,6 +12,24 @@
   }
 
   .row { padding: 0 2%;}
+
+  .corner-ribbon {
+    line-height: 25px;
+    font-size: 80%;
+  }
+
+  .corner-ribbon.top-right {
+    top: 35px;
+    right: -95px;
+  }
+
+  .main-nav {
+    margin-right: 125px;
+  }
+
+  .main-nav li {
+    margin-left: 30px;
+  }
 }
 
 /* Small tablets to big tablet: from 768 to 1023px */
@@ -23,8 +46,26 @@
     margin-right: 5px;
   }
   .section-contact { font-size: 90%; }
+
+  .main-nav li {
+    margin-left: 30px;
+  }
 }
 
+@media only screen and (max-width: 970px) {
+  .main-nav li {
+    margin-left: 20px;
+  }
+
+  .corner-ribbon.top-right {
+    top: 30px;
+    right: -100px;
+  }
+}
+
+@media only screen and (max-width: 918px) {
+  .logo { height: 95px; }
+}
 
 /* Small phones to small tablets: from 481 to 767px */
 @media only screen and (max-width: 767px) {
