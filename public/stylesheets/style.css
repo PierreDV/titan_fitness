@@ -254,6 +254,7 @@ h2:after {
   letter-spacing: 1px;
   padding: 4px;
   font-weight: bold;
+  z-index: 1;
 }
 
 /* ------------------------------------------------- */
