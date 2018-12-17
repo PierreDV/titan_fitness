@@ -30,10 +30,17 @@ app.use('/philosophy', philosophyRouter);
 app.use('/facilities', facilitiesRouter);
 app.use('/contact', contactRouter);
 
+app.use(function(req, res, next) {
+    var reqType = req.headers["x-forwarded-proto"];
+    reqType == 'https' ? next() : res.redirect("https://" + req.headers.host + req.url);
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
+
 
 // error handler
 app.use(function(err, req, res, next) {
