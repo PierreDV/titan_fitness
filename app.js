@@ -23,6 +23,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(function(req, res, next) {
+  var reqType = req.headers["x-forwarded-proto"];
+  reqType == 'https' ? next() : res.redirect("https://" + req.headers.host + req.url);
+});
+
 app.use('/', indexRouter);
 app.use('/why_titan', whyTitanRouter);
 app.use('/tariffs', tariffsRouter);
@@ -30,10 +35,7 @@ app.use('/philosophy', philosophyRouter);
 app.use('/facilities', facilitiesRouter);
 app.use('/contact', contactRouter);
 
-app.use(function(req, res, next) {
-    var reqType = req.headers["x-forwarded-proto"];
-    reqType == 'https' ? next() : res.redirect("https://" + req.headers.host + req.url);
-});
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
