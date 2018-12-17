@@ -23,6 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// redirect to https in production
 if(app.get('env') === 'production') {
   app.use(function(req, res, next) {
     var reqType = req.headers["x-forwarded-proto"];
@@ -37,14 +38,10 @@ app.use('/philosophy', philosophyRouter);
 app.use('/facilities', facilitiesRouter);
 app.use('/contact', contactRouter);
 
-
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
-
-
 
 // error handler
 app.use(function(err, req, res, next) {
