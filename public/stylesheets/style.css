@@ -1,8 +1,9 @@
 /*
+Red: #e30613
 Blue: #262f6A
 Grey: #222f3e
+Dark-Grey: #1C2733
 Off-white: #ecf0f1
-red: #e30613
 */
 
 /* ------------------------------------------------- */
@@ -191,6 +192,16 @@ h2:after {
 }
 
 /* ------------------------------------------------- */
+/* FOOTER */
+/* ------------------------------------------------- */
+
+.footer p {
+  background-color: #1C2733;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* ------------------------------------------------- */
 /* HOMEPAGE */
 /* ------------------------------------------------- */
 
@@ -213,9 +224,8 @@ h2:after {
 
 .homepage-hero-text-box ul { float: right; }
 
-.homepage-hero-text-box ul li { list-style: none; }
-
-.homepage-info li {
+.homepage-hero-text-box ul li {
+  list-style: none;
   margin: 0 0 3px 0;
   font-weight: bold;
 }
