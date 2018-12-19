@@ -230,9 +230,10 @@ h2:after {
 
 .mobile-nav-icon {
   float: right;
-  margin-top: 30px;
+  margin-top: 15px;
   cursor: pointer;
   display: none;
+  margin-right: -15px;
 }
 
 .mobile-nav-icon ion-icon {
