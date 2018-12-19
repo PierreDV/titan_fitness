@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
+var homepageRouter = require('./routes/homepage');
 var whyTitanRouter = require('./routes/why_titan');
 var tariffsRouter = require('./routes/tariffs');
 var philosophyRouter = require('./routes/philosophy');
@@ -31,7 +31,7 @@ if(app.get('env') === 'production') {
   });
 }
 
-app.use('/', indexRouter);
+app.use('/', homepageRouter);
 app.use('/why_titan', whyTitanRouter);
 app.use('/tariffs', tariffsRouter);
 app.use('/philosophy', philosophyRouter);
