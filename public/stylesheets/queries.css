@@ -98,4 +98,13 @@
   section { padding: 25px 0; }
 
   .mobile-nav-icon { margin-right: 5px;}
+
+  .banner h2 {
+    margin-top: 35px;
+    font-size: 175%;
+  }
+
+  h2:after {
+    margin-top: 20px;
+  }
 }
