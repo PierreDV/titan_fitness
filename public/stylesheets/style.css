@@ -1,14 +1,7 @@
 /*
-Red: #e60807
 Blue: #262f6A
-Grey: #2c3e50
+Grey: #222f3e
 Off-white: #ecf0f1
-*/
-
-/*
-Logo colors,
-white: #ffffff
-blue: #273067
 red: #e30613
 */
 
@@ -92,33 +85,11 @@ h2:after {
   line-height: 145%;
 }
 
-.philosophy-text p {
-  line-height: 130%;
-  width: 75%;
-  margin: 20px auto;
-  text-align: justify;
-}
-
-.philosophy-text p:after {
-  display: block;
-  height: 2px;
-  background-color: #e30613;
-  content: " ";
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-
-.philosophy-text p:last-child:after {
-  background-color: transparent;
-  margin: 0;
-}
-
 /* ----- ICONS ----- */
 .icon-big {
   font-size: 300%;
   display: block;
-  color: #e60807;
+  color: #e30613;
   margin-bottom: 10px;
 }
 
@@ -135,66 +106,38 @@ h2:after {
 /* HEADER */
 /* ------------------------------------------------- */
 
-.main-header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/main.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/main.jpeg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-.banner {
+.hero {
   background-size: cover;
   background-position: center;
   height: 35vh;
 }
 
-.banner h2 { margin-top: 70px; }
-
-.facilities {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/dumbbells.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/dumbbells.jpeg);
-  background-position: 0% 90%;
-}
-
-.philosophy {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/lifter.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lifter.jpeg);
-  background-position: 0% 30%;
-}
-
-.contact {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/kettlebells.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/kettlebells.jpeg);
-  background-position: 0% 70%;
-}
-
-.tariffs { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/lady_kettlebell.jpeg); background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lady_kettlebell.jpeg); }
-
-.why-titan { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/lifter_2.jpeg); background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lifter_2.jpeg); }
-
-.secondary-nav { padding-bottom: 20px; }
+.hero h2 { margin-top: 70px; }
 
 .secondary-header { background-color: black; }
-
-.hero-text-box {
-  position: absolute;
-  width: 1140px;
-  top: 40%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.hero-text-box ul { float: right; }
-
-.hero-text-box ul li { list-style: none; }
 
 .logo {
   height: 100px;
   width: auto;
   float: left;
   margin-top: 20px;
+}
+
+.corner-ribbon {
+  top: 45px;
+  right: -85px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: fixed;
+  width: 325px;
+  background: #e30613;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1px;
+  padding: 4px;
+  font-weight: bold;
+  z-index: 1;
 }
 
 /* ----- NAVIGATION ----- */
@@ -228,6 +171,8 @@ h2:after {
   border-bottom: 2px solid #e30613;
 }
 
+.secondary-nav { padding-bottom: 20px; }
+
 .mobile-nav-icon {
   float: right;
   margin-top: 15px;
@@ -241,30 +186,53 @@ h2:after {
   color: #ecf0f1;
 }
 
-.corner-ribbon {
-  top: 45px;
-  right: -85px;
-  left: auto;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  position: fixed;
-  width: 325px;
-  background: #e30613;
-  text-align: center;
-  line-height: 25px;
-  letter-spacing: 1px;
-  padding: 4px;
+/* ------------------------------------------------- */
+/* HOMEPAGE */
+/* ------------------------------------------------- */
+
+.homepage-header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/main.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/main.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.homepage-hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.homepage-hero-text-box ul { float: right; }
+
+.homepage-hero-text-box ul li { list-style: none; }
+
+.homepage-info li {
+  margin: 0 0 3px 0;
   font-weight: bold;
-  z-index: 1;
+}
+
+/* ------------------------------------------------- */
+/* WHY TITAN PAGE */
+/* ------------------------------------------------- */
+
+.why-titan {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/lifter_2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lifter_2.jpeg);
 }
 
 /* ------------------------------------------------- */
 /* CONTACT PAGE */
 /* ------------------------------------------------- */
 
-#mapid {
-  height: 250px;
-  width: 100%;
+.contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/kettlebells.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/kettlebells.jpeg);
+  background-position: 0% 70%;
 }
 
 .contact-box { margin-top: 30px; }
@@ -289,9 +257,18 @@ h2:after {
   margin-right: 25px;
 }
 
+#mapid {
+  height: 250px;
+  width: 100%;
+}
+
 /* ------------------------------------------------- */
 /* TARIFFS PAGE */
 /* ------------------------------------------------- */
+
+.tariffs {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/lady_kettlebell.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lady_kettlebell.jpeg); }
 
 .tariffs-box { text-align: center; }
 
@@ -310,10 +287,43 @@ h2:after {
 .tariffs-box p { font-size: 120%; }
 
 /* ------------------------------------------------- */
-/* HOME PAGE */
+/* PHILOSOPHY PAGE */
 /* ------------------------------------------------- */
 
-.homepage-info li {
-  margin: 0 0 3px 0;
-  font-weight: bold;
+.philosophy {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/lifter.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/lifter.jpeg);
+  background-position: 0% 30%;
+}
+
+.philosophy-text p {
+  line-height: 130%;
+  width: 75%;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+.philosophy-text p:after {
+  display: block;
+  height: 2px;
+  background-color: #e30613;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.philosophy-text p:last-child:after {
+  background-color: transparent;
+  margin: 0;
+}
+
+/* ------------------------------------------------- */
+/* FACILITIES PAGE */
+/* ------------------------------------------------- */
+
+.facilities {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/dumbbells.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/dumbbells.jpeg);
+  background-position: 0% 90%;
 }
