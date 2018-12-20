@@ -100,6 +100,10 @@
 @media only screen and (max-width: 480px) {
   section { padding: 25px 0; }
 
+  .logo { height: 85px; }
+
+  .homepage-header { height: 122vh; }
+
   .mobile-nav-icon { margin-right: 5px;}
 
   .hero h2 {
