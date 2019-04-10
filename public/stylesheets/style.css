@@ -210,7 +210,7 @@ h2:after {
 /* ------------------------------------------------- */
 
 .homepage-header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/main.jpeg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/main.jpeg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/main.jpeg);
   background-size: cover;
   background-position: center;
@@ -226,10 +226,8 @@ h2:after {
   transform: translate(-50%, -50%);
 }
 
-.homepage-info-text {
-  margin-top: 25%;
-  font-size: 110%;
-  padding: 0 90px;
+.signup-info-text {
+  font-size: 105%;
 }
 
 .homepage-hero-text-box ul { float: right; }
