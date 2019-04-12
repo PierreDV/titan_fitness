@@ -227,7 +227,8 @@ h2:after {
 }
 
 .signup-info-text {
-  font-size: 105%;
+  font-size: 95%;
+  padding-left: 25px;
 }
 
 .homepage-hero-text-box ul { float: right; }
@@ -236,11 +237,6 @@ h2:after {
   list-style: none;
   margin: 0 0 3px 0;
   font-weight: bold;
-}
-
-.signup-hours {
-  color: #e30613;
-  font-size: 110%;
 }
 
 /* ------------------------------------------------- */
