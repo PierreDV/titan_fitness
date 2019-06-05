@@ -97,6 +97,10 @@
     text-align: center;
   }
 
+  .signup-info-text { padding-left: 0; }
+
+  .holiday-hours { font-size: 120%; }
+
   h1 {
     font-size: 180%;
     text-align: center;
@@ -108,9 +112,13 @@
 @media only screen and (max-width: 480px) {
   section { padding: 25px 0; }
 
+  .signup-info-text { padding-left: 0 }
+
   .homepage-header { height: 122vh; }
 
   .mobile-nav-icon { margin-right: 5px;}
+
+  .homepage-hero-text-box { top: 10%; }
 
   .hero h2 {
     margin-top: 35px;

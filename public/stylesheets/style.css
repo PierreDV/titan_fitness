@@ -240,6 +240,12 @@ h2:after {
   font-weight: bold;
 }
 
+.holiday-hours {
+  color: #e30613;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* ------------------------------------------------- */
 /* WHY TITAN PAGE */
 /* ------------------------------------------------- */
