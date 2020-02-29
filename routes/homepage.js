@@ -5,8 +5,10 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render(
     'homepage', 
-    { layout: 'homepage_layout', 
-      title: 'Bienvenue chez Titan fitness - une salle de musculation à Gland en Suisse'}
+    { 
+      layout: 'homepage_layout', 
+      title: 'Bienvenue chez Titan fitness - une salle de musculation à Gland en Suisse'
+    }
   );
 });
 
